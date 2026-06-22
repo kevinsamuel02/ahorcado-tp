@@ -1,0 +1,25 @@
+# =========================
+# Ignorar Backend (Java / Spring Boot)
+# =========================
+ahorcado-api/target/
+ahorcado-api/.mvn/
+ahorcado-api/mvnw
+ahorcado-api/mvnw.cmd
+ahorcado-api/.idea/
+ahorcado-api/*.iml
+
+# =========================
+# Ignorar Frontend (React Native / Expo)
+# =========================
+ahorcado-app/node_modules/
+ahorcado-app/.expo/
+ahorcado-app/dist/
+ahorcado-app/npm-debug.log*
+ahorcado-app/yarn-debug.log*
+ahorcado-app/yarn-error.log*
+
+# =========================
+# Ignorar SO (Archivos ocultos de Windows/Mac)
+# =========================
+.DS_Store
+Thumbs.db

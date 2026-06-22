@@ -33,7 +33,7 @@ public class MatchService {
                 .orElseGet(() -> playerRepository.save(new Player(dto.getUsername())));
 
         int score = scoringStrategy.calculateScore(
-                dto.getWord().length(),
+                dto.getWord(),
                 dto.getMistakes(),
                 dto.getTimeElapsedSeconds()
         );

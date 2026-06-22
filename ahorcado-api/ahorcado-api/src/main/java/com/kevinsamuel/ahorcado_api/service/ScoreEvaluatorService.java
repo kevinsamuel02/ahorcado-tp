@@ -8,7 +8,7 @@ import java.util.List;
 @Service
 public class ScoreEvaluatorService {
 
-    private static final List<Character> RARE_LETTERS = Arrays.asList('K', 'W', 'X', 'Y', 'Z');
+    private static final List<Character> RARE_LETTERS = Arrays.asList('K', 'W', 'X', 'Y', 'Z', 'Q');
 
 
     public int calculateScore(String word, int timeElapsedSeconds, int mistakes) {

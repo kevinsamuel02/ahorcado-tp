@@ -37,8 +37,7 @@ public class Match {
     @Column(name = "created_at", updatable = false)
     private LocalDateTime createdAt;
 
-    public Match() {
-    }
+
 
     public Match(Player player, String word, int mistakes, int timeElapsedSeconds, int score) {
         this.player = player;

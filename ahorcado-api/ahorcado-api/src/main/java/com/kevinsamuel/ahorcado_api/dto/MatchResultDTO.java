@@ -28,4 +28,5 @@ public class MatchResultDTO {
     public void setRankingPosition(int rankingPosition) {
         this.rankingPosition = rankingPosition;
     }
+
 }
